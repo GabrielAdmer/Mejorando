@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2>Lista de tareas</h2>
+    </header>
+    <div class="container">
+      <section>
+        <form action="#" class="form">
+          <h3 class="title-form">Formulario de tareas</h3>
+          <input type="text" placeholder="Ingrese la tarea.." name="nombre" />
+          <div class="grid">
+            <input type="datetime-local" name="tiempo" />
+
+            <select name="estado" id="select">
+              <option>Mostrar Tareas</option>
+              <option value="incompletas">Tareas Incompletas</option>
+              <option value="terminados">Tareas Concluidas</option>
+            </select>
+          </div>
+
+          <input type="submit" value="Agregar" class="button" />
+        </form>
+      </section>
+
+      <div class="containerdos">
+        <div>
+          <input type="search" class="filter" placeholder="Busquesa...." />
+        </div>
+
+        <div class="cabecera">
+          <div>tiempo</div>
+          <div>tareas</div>
+          <div>Estado</div>
+          <div>Elimianr</div>
+        </div>
+        <section class="tareas">
+          <!-- <div class="tarea">
+        <p class="tarea-tarea">Tarea: <span>Estudiar</span></p>
+        <p class="tarea-tiempo">Tiempo: <span>10horas 2minutos 2segundos</span></p>
+        <input class="tarea-estado" type="checkbox" />
+      </div> -->
+        </section>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
